@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AQA</string>
+    <string name="airquality">Air Quality Application</string>
+    <string name="beta">v 1.0 Beta</string>
+    <string name="realtime">Realtime</string>
+    <string name="back">\u02FF</string>
+</resources>
