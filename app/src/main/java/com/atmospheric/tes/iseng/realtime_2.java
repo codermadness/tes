@@ -41,9 +41,6 @@ public class realtime_2 extends AppCompatActivity {
             public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 Log.d("TEST", "onChildChanged: "+dataSnapshot.getValue().toString());
 
-                List<Entry> entries = new ArrayList<>();
-                // turn your data into Entry objects
-                entries.add(new Entry(Float.parseFloat(dataSnapshot.getValue().toString()), data.getValueY()));
             }
 
             @Override

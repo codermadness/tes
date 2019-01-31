@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:backgroundTint="@color/colorPrimary"
-    tools:context=".MainActivity">
+    tools:context="com.atmospheric.tes.iseng.MainActivity">
+
     <FrameLayout
         android:id="@+id/frameLayout6"
         android:layout_width="191dp"
@@ -17,6 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/frameLayout5"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+     
 
     </FrameLayout>
 
@@ -32,6 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout4">
 
+
     </FrameLayout>
 
     <FrameLayout
@@ -45,6 +48,7 @@
         app:layout_constraintEnd_toStartOf="@+id/frameLayout2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
 
     </FrameLayout>
 
@@ -60,6 +64,7 @@
         app:layout_constraintStart_toEndOf="@+id/frameLayout7"
         app:layout_constraintTop_toTopOf="parent">
 
+
     </FrameLayout>
 
     <RelativeLayout
@@ -74,15 +79,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="19dp"
-            android:onClick="Realtime"
-            android:text="@string/realtime" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="35dp"
+            android:src="@drawable/rt" />
+
 
     </RelativeLayout>
 
